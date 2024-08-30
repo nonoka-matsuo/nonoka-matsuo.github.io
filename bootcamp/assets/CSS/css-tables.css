@@ -1,0 +1,13 @@
+.info-table{
+    border: 1px solid black;
+    /*border-collapse: collapse;*/
+    border-collapse: separate;
+    border-spacing: 15px;
+    empty-cells: hide;
+}
+
+.info-table th,
+.info-table td
+{
+    border: 1px solid black;
+}

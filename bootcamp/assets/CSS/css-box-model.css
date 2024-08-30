@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    /*reset alldefault margin and padding*/
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background: #eaeaea;
+    width: 300px;
+    height: 300px;
+    /*padding*/
+    padding: 20px;
+    padding: 20px 10px;
+    padding: 20px 10px 5px;
+    padding: 20px 10px 5px 3px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 40px;
+    border: 5px solid green;
+    box-sizing: border-box;
+
+
+}
+.box p{
+    background: wheat;
+    width: 50%;
+}
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    background: #20ab4a;
+
+    border-radius: 100px;
+    overflow: hidden;
+    border: 5px solid #20ab4a;
+}
+.profile-picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-shadow{
+    width: 50%;
+    height: 200px;
+    background: #eaeaea;
+    margin: 40px auto;
+
+    box-shadow: 10px 10px 10px red;
+}

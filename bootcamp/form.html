@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form action="#" method="#">
+        <h1>Simple Form Example</h1>
+        <tr>
+            <td> <label for="name">Name:</label></td>
+            <td><input type="text" id="name" placeholder="Lastname Firstname" 
+             required></td><br>
+        </tr>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" max="60" min="18"><br>
+
+        <label for="bdate">Birthdate</label>
+        <input type="date" id="bdate" name="bday"><br>
+
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+        <option value="">Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="password">Password:</label>
+        <input type="Password" id="Password" name="Password"><br>
+
+        <label for="remember">
+        <input type="checkbox" id="remember" name="remember">Remember me
+        </label><br>
+
+        <p>Favorite Music</p>
+        <input type="radio" name="music" id="pop" value="pop">
+        <label for="rock">Rock</label>
+        <input type="radio" name="music" id="rock" value="rock">
+        <label for="pop">Pop</label>
+        <input type="radio" name="music" id="jazz" value="jazz">
+        <label for="jazz">Jazz</label><br>
+
+
+        <label for="device">What is your device?
+            <select name="device" id="device" multiple>
+                <option value="macbook">Macbook</option>
+                <option value="iphone">Iphone</option>
+                <option value="ipad">Ipad</option>
+            </select><br>
+
+        </label>
+
+        <label for="message">Message:</label>
+        <textarea name="Message" id="Message"></textarea><br>
+
+        <input type="file" name="file"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

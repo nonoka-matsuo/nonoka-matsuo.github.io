@@ -1,0 +1,30 @@
+img{
+    width: 170px;
+    height: 170px;
+    margin-left: 15px;
+    float: right;
+}
+.div1{
+    float: left;
+    padding: 10px;
+    border: 3px solid black
+}
+.div2{
+    padding: 10px;
+    border: 3px solid red;
+}
+.an{
+    padding: 10px;
+    border: 3px solod blue;
+}
+.div3{
+    float: left;
+    padding: 10px;
+    border: 3px solid rgb(120,6,88);
+}
+.div4{
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+
+}

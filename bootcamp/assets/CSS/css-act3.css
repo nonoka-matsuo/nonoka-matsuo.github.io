@@ -1,0 +1,42 @@
+h1{
+    text-transform: uppercase;
+    text-decoration: underline grey;
+    text-align: center;
+
+}
+.box{
+    text-align: center;
+}
+.box a{
+    height: 5px;
+    width: 10px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px black;
+    margin: 10px;
+}
+.main{
+   height: 300px;
+   width: 100%;
+   border: 5px double black;
+   margin-top: 20px;
+   background-image:url(../images/1080x608.png);
+   background-position: right;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.main p{
+    height: 100px;
+    width: 50%;
+    padding: 5% 5%;
+    text-align: left;
+}
+.bold{
+    font-weight: bold;
+    
+}
+.italic{
+    font-style: italic;
+    font-weight: bold;
+}

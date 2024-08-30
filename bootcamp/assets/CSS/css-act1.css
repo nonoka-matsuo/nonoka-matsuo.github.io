@@ -1,0 +1,54 @@
+h1{
+    color: blueviolet;
+    text-shadow: 5px 5px 5px rgb(255, 0, 132);
+    text-decoration: underline;
+    text-align: center;
+
+}
+.menu{
+    text-align: center;
+
+}
+.menu a{
+    word-spacing: 20px;
+    font-weight: bold;
+    color: black;
+    
+}
+h2{
+    font-family: serif;
+    text-align: center;
+}
+.series{
+    list-style: outside;
+    list-style-type: decimal;
+}
+.italic{
+    font-style: italic;
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+
+.learn{
+    color:red;
+    text-shadow: 5px 5px 10px red;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-read{
+    color:red;
+    text-shadow: 5px 5px 10px red;
+    font-weight: bold;
+}
+.italic-bold{
+    font-style: italic;
+    font-weight: bold;
+    
+}
+p{
+    font-size:smaller;
+}
+
+    

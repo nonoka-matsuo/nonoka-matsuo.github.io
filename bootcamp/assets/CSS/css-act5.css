@@ -1,0 +1,75 @@
+.top-box{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+
+}
+
+.footer-box{
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+.second-box{
+    box-sizing: border-box;
+    width: 70%;
+    height: 120px;
+    border: solid black 3px;
+    position: absolute;
+    top: 120px;
+}
+.blue-box{
+    display: block;
+    height: 27px;
+    width: 90%;
+    background-color: rgb(72, 182, 212);
+    color: black;
+    position: static;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+}
+.green-box{
+    display: block;
+    width: 17%;
+    height: 27px;
+    background-color: rgb(52, 189, 68);
+    color: black;
+    z-index: 1;
+    position: absolute;
+    top: 3px;
+    margin-left: 80%;
+    text-align: center;
+
+   
+   
+}
+.red-box{
+    display: block;
+    height: 27px;
+    width: 90%;
+    background-color: rgb(208, 80, 80);
+    color: black;
+    padding-left: 5px;
+    position: relative;
+    top: 20px;
+    left: 10%;
+
+}
+.left-box{
+    display: block;
+    width: 15%;
+    background-color: rgb(216, 216, 137);
+    color: black;
+    position: absolute;
+    bottom: 75px;padding-left: 5px;
+
+}

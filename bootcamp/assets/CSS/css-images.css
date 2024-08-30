@@ -1,0 +1,16 @@
+/*body{
+    width: 50%;
+    height: 350px;
+    background-image: url('../images/download.jpg');
+    background-repeat: repeat;
+}*/
+.bg-image{
+    background-color: bisque;
+    height: 650px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url('../images/download.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

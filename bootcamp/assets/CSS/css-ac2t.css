@@ -1,0 +1,25 @@
+.info-table{
+    border: 1px solid white;
+    border-collapse: separate;
+    border-spacing: 5px;
+    text-align: center;
+
+}
+
+.info-table 
+{
+    border: 1px solid black;
+}
+.head{
+    background-color: rgb(205, 92, 107);
+    color: white;
+    text-transform: uppercase;
+
+}
+.n{
+    background-color: rgb(205, 92, 107);
+   
+}
+.uppercase{
+    text-transform: uppercase;
+}

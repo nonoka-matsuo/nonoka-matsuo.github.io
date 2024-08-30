@@ -1,0 +1,27 @@
+.unordered{
+    list-style: circle;
+}
+.square{
+    list-style: square;
+}
+.none{
+    list-style: none;
+}
+.a{
+    list-style-type: lower-alpha;
+}
+.A{
+    list-style-type: upper-alpha;
+}
+.i{
+    list-style-type: lower-roman;
+}
+.I{
+    list-style-type: upper-roman;
+}
+.outside{
+    list-style: outside;
+
+.inside{
+    list-style-position: inside;
+}
